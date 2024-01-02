@@ -1,0 +1,58 @@
+.bo20 {
+  padding-bottom: 20px;
+}
+.line_bot {
+  border-bottom: 1px solid black;
+}
+
+table {
+  text-align: left;
+  font-size: 8px;
+  max-width: 350px;
+  width: 100%;
+  min-height: 500px;
+  border: 1px solid black;
+}
+.brank {
+  height: 100%;
+}
+.title {
+  font-size: 24px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.name1 {
+  width: 80%!important;
+  font-size: 13px;
+  padding-top: 20px;
+  padding-bottom: 5px; 
+}
+.cost1,
+.number1 {
+  width: 10%!important;
+  font-size: 13px;
+  padding-top: 20px;
+  padding-bottom: 5px; 
+  text-align: center;
+}
+.name {
+  font-size: 7px;
+  padding-top: 5px;
+}
+.cost {
+  font-size: 8px;
+}
+.number {
+  font-size: 13px;
+  padding-top: 5px;
+  text-align: end;
+}
+.max {
+  font-size: 13px;
+  padding-top: 5px;
+  text-align: end;
+}
+* {
+  box-sizing: border-box!important;
+}

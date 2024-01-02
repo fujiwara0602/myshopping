@@ -1,0 +1,81 @@
+.product img {
+  margin-top: 200px;
+  margin-left: 15%;
+  margin-right: 5%;
+  width: 30%;
+  height: auto;
+}
+
+.p_right {
+  margin-top: 200px;
+  margin-left: 5%;
+  margin-right: 15%;
+  width: 30%;
+  white-space: normal;
+}
+
+.p_right p {
+  word-wrap: break-word; /* 長い単語やURLを適切に折り返す */
+  overflow-wrap: break-word; /* 改行位置を調整して折り返す */
+}
+
+.cost {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+.cart_button {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1199px) {
+
+  .p_right {
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 40%;
+    white-space: normal;
+  }
+
+  .p_right h1 {
+    font-size: 18px;
+  }
+
+  .product img {
+    margin-top: 100px;
+    width: 40%;
+    height: auto;
+    margin-left: 5%;
+  }
+
+  .cart_button {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+
+  .p_right {
+    margin-bottom: 100px;
+    width: 90%;
+  }  
+
+  .cart_button {
+    margin-top: 0px;
+  }
+
+  .flex {
+    display: block;
+  }
+
+  .product img {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+}
